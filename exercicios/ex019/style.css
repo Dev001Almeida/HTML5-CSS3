@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+body{
+    background-color: aquamarine;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h1{
+color: rgb(255, 170, 0);
+}
+
+#nome {
+    text-align: center;
+    color: black;
+}
+
+h2 {
+color: rgb(255, 0, 225);
+}
+
+#nome1 {
+    color: blue;
+}
+
+.basico {
+color: rgb(116, 83, 215) ;
+}
+
+.intermediario {
+color: rgb(116, 133, 17) ;
+}
+
+.avancado {
+color: red ;
+}
+
+.destaque {
+    background-color: rgba(165, 42, 42, 0.306);
+}
