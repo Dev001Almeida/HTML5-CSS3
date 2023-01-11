@@ -1,0 +1,234 @@
+@charset "UTF-8";
+
+* {
+
+    padding: 0;
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+body, html {
+
+height: 100%;
+background-image: linear-gradient(to top, skyblue ,slateblue);
+
+
+}
+
+
+section {
+
+    background-color: white;
+    border-radius: 15px;
+    width: 250px;
+    height: 420px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: block;
+  
+   
+
+}
+
+
+
+
+.parte1 > p { 
+    
+    padding: 20px;     
+ color: black;
+ margin-bottom: -32px;
+ 
+}
+
+.parte1 > h1 {
+
+    background-color: darkblue;
+    color: white;
+    padding: 30px;
+    border-radius: 15px;
+   border-bottom-left-radius: 0;
+   border-bottom-right-radius: 0;
+   font-weight: bolder;
+  
+
+}
+
+.caixa > input {
+
+    position: relative;
+    top: -48.6px;
+    left: 35px;
+
+    padding-left: 12px;
+   border: 1px solid darkblue;
+
+height: 31px;
+
+width: 138px;
+
+}
+
+
+
+.caixa {
+
+
+height: 35px;
+text-align: start;
+margin-bottom: -30px;
+
+}
+
+.caixa > span {
+
+background-color: white;
+height: 25px;
+width: 28px;
+
+padding-top: 3px;
+padding-bottom: 3px;
+
+
+padding-left: 4.5px;
+padding-right: 10px;
+border-top-left-radius: 5px;
+border-bottom-left-radius: 5px;
+color: darkblue;
+text-align: center;
+border:1px solid darkblue;
+
+
+
+}
+
+div.parte2 {
+
+   
+width: 170px;
+height: 200px;
+display: block;
+padding: 8px;
+
+position: relative;
+border-radius: 5px;
+
+top: 24%;
+left: 45%;
+
+transform: translate(-50%,-50%);
+
+text-align: start;
+
+}
+
+
+div.parte2 > div {
+
+
+margin-bottom: 27px;
+
+}
+
+
+
+div.parte2 > .label1, .label2 {
+    
+    margin-top: 18px;
+    width: 182px;
+    padding: 5px;
+    border-radius:5px ;
+    color: slateblue;
+   display: block;
+ line-height: 40px;
+
+    }
+
+ input {
+
+margin-top: 5px;
+
+
+
+}
+
+div.input1 {
+
+
+    position: relative;
+    top: -15px;
+    right: 8px;
+    width: 200px;
+    text-align: center;
+
+}
+
+div.input1>  label {
+
+color: lightslategray;
+font-size: .8em;
+position: relative;
+bottom: 2px;
+margin-right: 15px;
+
+}
+
+div.input1>  a {
+
+    color: lightslategray;
+    font-size: .8em;
+    position: relative;
+    bottom: 2px;
+    
+    
+    }
+
+
+  
+
+  
+
+
+    div   .input1 {
+
+
+        position: relative;
+        top: 40px;
+        text-align: end;
+        
+            }
+
+
+            div   .input2 {
+
+                position: relative;
+                top: 40px;
+                right: 7px;
+            text-align: center;
+            background-color: limegreen;
+            border-radius: 5px;
+            height: 40px;
+            width: 200px;
+            cursor: pointer;
+                    }
+
+            div .input2 > input  {
+
+                background-color: transparent;
+                border: 1px solid transparent;
+                font-weight: bolder;
+                color: white;
+                border-radius: 15px;
+                vertical-align: center;
+                cursor: pointer;
+
+            }
+
+            div   .input2:hover {
+
+                background-color: rgb(53, 172, 53);
+
+            }
