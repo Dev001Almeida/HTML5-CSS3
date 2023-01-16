@@ -20,7 +20,7 @@ body, html {
 section {
 
     background-color: white;
-    height: 500px;
+    height: 400px;
     width: 250px;
     position: absolute;
     top: 50%;
@@ -48,9 +48,9 @@ section>.part1>h1 {
 
    
     padding: 5px;
-    width: 183px;
+    width: 160px;
     position: relative;
-    left: 25px;
+    left: 40px;
     border-radius: 5px;
     background-color: orangered;
     margin-bottom: 20px;
@@ -64,7 +64,7 @@ span {
     top: 5px;
     color: orange;
     background-color: rgb(161, 89, 0);
-    padding: 5px;
+    padding: 2px;
     border-radius: 5px;
     border: 1px solid orange;
 
@@ -73,19 +73,40 @@ span {
 input {
 
 height: 26px;
-width: 120px;
+width: 100px;
 margin-left: 10px;
 background-color: white;
 border: 1px solid  orange;
 position: relative;
+bottom: 2.5px;
+padding: 3px;
 
-right: 2px;
-padding: 5px;
+}
+
+
+.ent>a {
+
+    font-size: x-small;
+position: relative;
+left: 25px;
+color: gray;
 
 }
 
 
 
+.ent>input {
+
+border-radius: 5px;
+position: relative;
+top: 75px;
+height:50px;
+font-size: medium;
+font-weight: 666;
+color: white;
+background-color: orangered;
 
 
+}
 
+.ent>input:hover {background-color: rgb(153, 62, 2);}
