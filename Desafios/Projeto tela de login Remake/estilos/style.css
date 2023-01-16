@@ -27,8 +27,9 @@ section {
     left: 50%;
     transform: translate(-50%,-50%);
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.815);
-    border-radius: 2px;
+    border-radius: 5px;
     background-color: white;
+    display: block;
 }
 
 section>.part1>h1 {
@@ -37,7 +38,7 @@ section>.part1>h1 {
         font-size: x-large;
         height: 60px;
         padding: 20px;
-        background-color: orangered;
+        background-color: orangered;    
         
 }
 
@@ -45,25 +46,34 @@ section>div.part2 {
 
 position: relative;
 top: 15px;
-left: 19px;
+left: 9px;
+width: 200px;
 text-align: center;
-height: 26px;
-width: 180px;
-border: 1px solid orangered;
-display: block;
-color: orange;
+height: 36px;
+background-color: orangered;
+border-radius: 5px;
 
 }
 
 
-section>div.part2>input {
-
-  vertical-align: super;
-  height: 25px;
-  border: 1px solid orangered;
-  position: relative;
+section>div.part2>label {
 
 
+  
+    position: relative;
+    top: 5px;
+    color: orange;
+   
+    
+    }
 
-}
+    section>div.part2>input {
+
+        color: orangered;
+
+
+
+    }
+
+
 
