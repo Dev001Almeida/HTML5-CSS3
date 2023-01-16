@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+
+section {
+
+    height: 220px;
+    width: 400px;
+
+}
+
+
+
+section>.part1>h1 {
+
+    font-size: smaller;
+   
+
+}
+
+
+section>.part1 {
+
+    padding: 10px;
+
+}
+
+
+.caixa1,.caixa2 {
+
+    padding: 5px;
+    margin-bottom: 5px;
+    
+
+}
+
+.ent>input {
+
+    position: relative;
+    top: 50px;
+    left: 320px;
+
+}
+
+
+.ent>a {
+
+position: relative;
+left: 220px;
+
+}
+
+
+
+
+.caixa1>input {
+
+width: 320px;
+
+}
+
+.caixa2>input {
+
+    width: 320px;
+    
+    }
