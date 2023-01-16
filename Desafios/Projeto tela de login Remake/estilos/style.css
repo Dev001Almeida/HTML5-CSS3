@@ -21,7 +21,7 @@ section {
 
     background-color: white;
     height: 500px;
-    width: 240px;
+    width: 220px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -41,40 +41,29 @@ section>.part1>h1 {
         
 }
 
-section>.part2 {
+section>div.part2 {
 
-    color: orangered;
-    
-    position: relative;
-    top: 30px;
-    left: 25px;
-    border: 2px solid orangered;
-    width: 180px;
-    text-align: center;
-    border-radius: 5px ;
-    height: 26px;
-
-}
-
-
-input {
-
-    
-    position: relative;
-    left: -2px;
-    bottom: 5px;
-    
-
-    border: 0;
-
-
-}
-
-span {
-
-    border: 1px solid orangered;
+position: relative;
+top: 15px;
+left: 19px;
+text-align: center;
+height: 26px;
+width: 180px;
+border: 1px solid orangered;
+display: block;
+color: orange;
 
 }
 
 
+section>div.part2>input {
+
+  vertical-align: super;
+  height: 25px;
+  border: 1px solid orangered;
+  position: relative;
+
+
+
+}
 
