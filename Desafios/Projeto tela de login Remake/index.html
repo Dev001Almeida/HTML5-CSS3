@@ -11,15 +11,32 @@
 </head>
 <body>
     <section>
+        
         <div class="part1">
             <h1>Faça o login</h1>
         </div>
+
         <form action="cadastrop.php" method="post">
-            <label for="iform1"><span class="material-symbols-outlined">
-                email
-                </span></label>
-            <input type="email" name="form1" id="iform1">
+            
+            <div class="caixa1">
+                <label for="iform1"><span class="material-symbols-outlined">
+                    email
+                    </span></label>
+                <input type="email" name="form1" id="iform1" placeholder="Endereço de Email" required maxlength="60">
+            </div>
+
+            <div class="caixa2">
+                <label for="iform2"><label for="iform1"><span class="material-symbols-outlined">
+                    password
+                    </span></label>
+                <input type="password" name="form2" id="iform2" placeholder="Senha" required minlength="8"
+                maxlength="20" >
+                 
+            </div>
+        
         </form>
+        
+        
     </section>
 </body>
 </html>

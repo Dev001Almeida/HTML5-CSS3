@@ -44,34 +44,43 @@ section>.part1>h1 {
 }
 
 
-form {
+.caixa1, .caixa2 {
 
-    background-color: orangered;
+   
     padding: 5px;
     width: 183px;
     position: relative;
     left: 25px;
     border-radius: 5px;
-
+    background-color: orangered;
+    margin-bottom: 20px;
 
 }
 
 span {
 
-    vertical-align: sub;
+    position: relative;
+    left: 3px;
+    top: 5px;
     color: orange;
+    background-color: rgb(161, 89, 0);
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid orange;
 
 }
 
 input {
 
-width: 134px;
+height: 26px;
+width: 120px;
 margin-left: 10px;
 background-color: white;
 border: 1px solid  orange;
 position: relative;
-bottom: 2.5px;
+
 right: 2px;
+padding: 5px;
 
 }
 
